@@ -3745,9 +3745,9 @@ input, select, textarea {
 
 /* Small */
 
-	#navPanel, #titleBar {
-		display: none;
-	}
+#navPanel, #titleBar {
+	display: none;
+}
 
 	@media screen and (max-width: 736px) {
 
@@ -3872,6 +3872,7 @@ input, select, textarea {
 			}
 
 			#titleBar {
+				
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3892,6 +3893,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
+				
 					color: #ffffff;
 					display: block;
 					font-weight: 300;
@@ -3905,7 +3907,7 @@ input, select, textarea {
 						border: 0;
 					}
 
-				#titleBar .toggle {
+				#titleBar .toggle {display: none;
 					text-decoration: none;
 					height: 60px;
 					left: 0;
